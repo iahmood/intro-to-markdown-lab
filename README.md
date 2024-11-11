@@ -6,9 +6,9 @@ In JavaScript, functions are blocks of reusable code. They allow you to bundle f
 
 - ## 1. Basic syntax
 
-```
+```javascript
 const functionName = (params) => {
-// code to be executed
+  // code to be executed
 }
 ```
 
@@ -20,9 +20,9 @@ The function name: The name you choose for the function.
 
 **Example:**
 
-```
+```javascript
 const greet = (name) => {
-console.log("Hello, " + name + "!");
+  console.log('Hello, ' + name + '!')
 }
 ```
 
@@ -34,8 +34,8 @@ To execute the function, you _call_ or _invoke_ it by using its name followed by
 
 **Example:**
 
-```
-greet('Alice'); // Outputs: Hello, Alice!
+```javascript
+greet('Alice') // Outputs: Hello, Alice!
 ```
 
 ## 3. Return values
@@ -44,12 +44,12 @@ Functions can process data input and output a value using the _return_ keyword.
 
 **Example:**
 
-```
-const addNums = (numA, numB)=> {
-return numA + numB
+```javascript
+const addNums = (numA, numB) => {
+  return numA + numB
 }
 
-const total = addNums(2, 4);
+const total = addNums(2, 4)
 console.log(total)
 // Expected value: 6
 ```
